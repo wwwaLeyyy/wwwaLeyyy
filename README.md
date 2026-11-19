@@ -1,16 +1,21 @@
-## Hi there 👋
+# 项目介绍
 
-<!--
-**wwwaLeyyy/wwwaLeyyy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+围绕工业信息检索与知识应用的项目简介。代码仓库保持私有，这里仅展示脱敏的用途与功能概览。
 
-Here are some ideas to get you started:
+## 工业物料匹配
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+面向物料描述与标准化条目的匹配场景，将规格和属性约束抽取与候选检索、重排序结合，辅助筛选符合要求的物料。处理标准等效关系，并区分未匹配与处理异常，便于复核结果和定位问题。
+
+## P&ID 图纸智能检索
+
+面向工艺管道及仪表流程图，识别设备与仪表位号，支持按位号搜索图纸内容。检索结果可关联 PDF 页码与图中位置，通过定位和高亮辅助查阅。
+
+## 文档知识库与 RAG
+
+面向文档知识检索与问答，对接独立的文档入库模块，提供检索、流式回答和来源引用。通过页码关联支持原文核对，并将知识服务、业务接口与配置分层组织，便于模块替换与集成。
+
+## 开源实践：TrendRadar
+
+基于开源项目 [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar) 的实践方向，涉及热点资讯聚合、关键词筛选与多渠道通知。此处作为开源学习与应用实践补充展示，原项目及核心功能归属上游作者。
+
+[查看项目目录](https://github.com/wwwaLeyyy/project-portfolio)
